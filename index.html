@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<!--One of my first projects. Trying to visually approximate the google.com homepage -->
+<head>
+	<style type="text/css">
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+            text-align: right;
+            color: grey;
+
+		}
+		img {
+    		display: block;
+    		margin: auto;
+    		width: 20%;
+    		padding-top: 250px;
+		}
+		li {
+			display: inline;
+		}
+		a {
+			color: black;
+			text-decoration: none;
+			padding: 14px;
+		}
+		#google-logo {
+
+		}
+		#search-bar {
+			text-align: left;
+			position: relative;
+			display: block;
+			margin: auto;
+            height: 22px;
+            width: 400px;
+		}
+		#table {
+			text-align: center;
+		}
+		.search-button {
+			position: relative;
+			display: inline-block;
+    		margin: auto;
+   			width: 10%;
+   			left: 40%;
+   			margin-top: 20px;
+
+
+		}
+		#google-seach {
+			padding-right: 30px;
+			position: relative;
+			right: 20px;
+		}
+		#lucky {
+			padding-left: 30px;
+		}
+		#sign-in {
+			background-color: blue;
+			color: white;
+		}
+		.footer {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: #efefef ;
+		padding: 15px;
+		}
+		#right-footer {
+			float: right;
+			position: absolute;
+			text-align: right;
+			right: 0;
+			bottom: 0;
+			left: 0;
+		}
+		.left-footer {
+			float: left;
+			padding: 10px;
+		}
+		
+	</style>
+	<title>google homepage</title>
+</head>
+<body>
+	<ul>
+		<li><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
+		<li><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=PVJCWKbMEMaL0gKt-oKYCg&ved=0EKouCBcoAQ">Images</a></li>
+		<li><a id="sign-in" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign in</a></li>
+	</ul>
+	<p><img id="google-logo" src="http://www.underconsideration.com/brandnew/archives/google_2015_logo_detail.png" var="Google logo" width="250px" align="center">
+	</p>
+	<form>
+		<input id="search-bar" type="text" name="Search Google or type URL" align="center">
+		<input class="search-button" value="Google Search" type="submit" name="Gsearch">
+		<input class="search-button" Value="Feeling Lucky" type="submit" name="Fellinglucky">
+	</form>
+	<footer>
+		<ul class="footer">
+			<li class="left-footer">Advertising</li>
+			<li class="left-footer">Business</li>
+			<li class="left-footer">About</li>
+			<li>Privacy</li>
+			<li>Terms</li>
+			<li>Settings</li>
+		</ul>
+	</footer>
+</body>
+</html>
